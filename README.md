@@ -4,7 +4,6 @@
 ```
 display: inline-block;
 ```
----
 
 ## 2.自定义tabbar
  uni-app的tabbar最多支持5个页面，即使是自定义的，需要动态改变的tabbar，加起来也不能超过5个,需要在page.json文件进行设置, 如:
@@ -30,7 +29,6 @@ display: inline-block;
 ```
 自定义tabbar里最好使用 cover-view 和 cover-image 来创建视图
 
----
 ## 3.border为1rpx时在各个机型上的适配问题
 ### 可以在view里添加两倍的border视图再缩小一倍
 ```
@@ -58,12 +56,12 @@ display: inline-block;
 </style>
 
 ```
----
+
 ## 4.页面滚动问题
 ```
   "disableScroll": true,  //true禁止滚动 false可以滚动
 ```
----
+
 ## 5.自定义tabbar相关问题
  按官方介绍 可以用cover-view来自定义tabbar，但是cover-view设置
 ```
@@ -74,7 +72,6 @@ bottom: 0;
 ```
 z-index: 999
 ```
----
 
 
 
